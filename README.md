@@ -23,5 +23,6 @@ Requires the following environment variables to be set:
 ## TODOs
 
 * Permit listing of multiple recipients as command-line argument to app.py.
+* Unit tests
 * Add feature that detects current WP version on target site using default installation files, rather than requiring manual updating of version status using `util.py`.
 * Refactor amount of code required on client side for twoifbysea and/or implement proper system installation
