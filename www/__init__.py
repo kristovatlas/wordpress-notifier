@@ -14,9 +14,11 @@ class UnsupportedURLError(Exception):
 
 class CannotFetchWordpressVersionError(Exception):
     """Couldn't pull wordpress version from GitHub"""
+    pass
 
 class CannotFetchPluginVersionError(Exception):
     """Couldn't pull plugin version from web"""
+    pass
 
 def get_wp_version():
     """Fetch the latest version of WordPress
