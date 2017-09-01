@@ -17,9 +17,8 @@ https://github.com/kristovatlas/twoifbysea
     $ python app.py recipient@example.com
 
 Requires the following environment variables to be set:
-    * TWOIFBYSEA_DEFAULT_GMAIL_USERNAME
-    * TWOIFBYSEA_DEFAULT_GMAIL_PASSWORD
-
+* `TWOIFBYSEA_DEFAULT_GMAIL_USERNAME`
+* `TWOIFBYSEA_DEFAULT_GMAIL_PASSWORD`
 
 ## TODOs
 
