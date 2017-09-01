@@ -11,12 +11,10 @@ Version 1 schema:
 #wordpress-notifier
 try:
     from sqliter import sqliter #sqliter.py
+    from sqliter import Where, SQLRawExpression
 except ImportError:
     import sqliter
-try:
     from sqliter.sqliter import Where, SQLRawExpression #sqliter.py
-except ImportError:
-    from sqliter import Where, SQLRawExpression
 
 APP_NAME = 'wordpress-notifier'
 AUTHOR = 'Atlas'
