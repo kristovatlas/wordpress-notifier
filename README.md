@@ -8,6 +8,18 @@ This program relies on the twoifbysea local web service.
 
 https://github.com/kristovatlas/twoifbysea
 
+PyPI dependencies can be installed by running:
+
+    $ pip install -r /path/to/word-press-notifier/requirements.txt
+
+The dependencies inherited from `twoifbysea` include:
+
+* appdirs
+* blake2
+* pycrypto
+* requests
+* validate_email
+
 ## Usage and Configuration
 
     $ python util.py --set-wordpress-version 4.8.1
