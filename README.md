@@ -4,7 +4,7 @@ Receive email updates when WordPress or plugins are updated
 
 ## Requirements
 
-This program relies on the twoifbysea local web service.
+This program relies on the twoifbysea local web service. You must first install and run the web service before you can use this program.
 
 https://github.com/kristovatlas/twoifbysea
 
