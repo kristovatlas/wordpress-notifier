@@ -9,7 +9,10 @@ Usage:
 import sys
 
 #wordpress-notifier
-from db import db
+try:
+    from db import db
+except ImportError:
+    import db
 
 class ModeArgs(object):
     """Parse argv"""

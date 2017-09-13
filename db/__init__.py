@@ -14,7 +14,7 @@ try:
     from sqliter import Where, SQLRawExpression
 except ImportError:
     import sqliter
-    from sqliter.sqliter import Where, SQLRawExpression #sqliter.py
+    from sqliter import Where, SQLRawExpression #sqliter.py
 
 APP_NAME = 'wordpress-notifier'
 AUTHOR = 'Atlas'
